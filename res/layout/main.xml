@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blue1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Knowledge Channel "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/yellow"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:color="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="20dip"
+            android:gravity="center"
+            android:text="Browse" />
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.44" >
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="184dp"
+            android:layout_height="104dp"
+            android:layout_x="67dp"
+            android:layout_y="77dp" />
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="178dp"
+            android:layout_height="114dp"
+            android:layout_x="70dp"
+            android:layout_y="238dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="206dp"
+            android:text="What&apos;s Airing?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="83dp"
+            android:layout_y="33dp"
+            android:text="Featured Video"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

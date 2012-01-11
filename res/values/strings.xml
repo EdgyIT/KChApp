@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, KnowledgeChannelActivity!</string>
+   <color name="black">#000000</color>
+   <color name="blue">#0003B3</color>
+   <color name="yellow">#FAF600</color>
+   
+    <string name="app_name">KnowledgeChannel</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="10dip">
+	<item android:id="@+id/MENU_CL"  android:title="Communication and Literature" />  
+  	<item android:id="@+id/MENU_TE"  android:title="Teacher Effectiveness"/>
+  	<item android:id="@+id/MENU_FLE"  android:title="Financial Literacy and Entrepreneurship"/>
+  	<item android:id="@+id/MENU_M"  android:title="Mathematics" />
+  	<item android:id="@+id/MENU_ST"  android:title="Science and Technology" />
+  	<item android:id="@+id/MENU_SSV"  android:title="Social Studies and Values" />
+  	<item android:id="@+id/MENU_NCA"  android:title="News and Current Affairs" />
+  	 
+</menu>
